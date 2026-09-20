@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ongyeol-busan-gyeongnam.pages.dev/sitemap.xml
