@@ -63,7 +63,8 @@ button { color: inherit; }
 .hero-points { display: flex; flex-wrap: wrap; gap: 9px; margin-top: 28px; padding: 0; list-style: none; }
 .hero-points li { padding: 8px 12px; color: #36565a; background: rgba(255,255,255,.84); border: 1px solid #cfe1df; border-radius: 999px; font-size: .87rem; font-weight: 700; }
 .hero-media { position: relative; }
-.hero-media img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 42px 10px 42px 10px; box-shadow: var(--shadow); }
+.hero-media .page-photo { margin: 0; border-radius: 42px 10px 42px 10px; box-shadow: var(--shadow); }
+.hero-media img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; }
 .hero-note { position: absolute; left: -38px; bottom: 30px; max-width: 250px; padding: 18px 20px; background: rgba(255,255,255,.96); border: 1px solid var(--line); border-radius: 18px; box-shadow: 0 18px 45px rgba(16,42,47,.16); }
 .hero-note strong { display: block; margin-bottom: 3px; font-size: 1.05rem; }
 .hero-note span { color: var(--ink-soft); font-size: .83rem; }
@@ -92,6 +93,14 @@ a.card:hover { transform: translateY(-5px); border-color: #a9cfca; box-shadow: 0
 .district-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 28px; }
 .district-link { padding: 14px 16px; background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.12); border-radius: 12px; font-size: .9rem; font-weight: 750; }
 .district-link:hover { background: var(--teal); }
+.pillar-more { margin: 30px 0 0; text-align: center; }
+.page-photo-wrap { margin-top: 42px; }
+.page-photo { position: relative; overflow: hidden; margin: 0; background: var(--navy); border-radius: 12px 34px 12px 34px; box-shadow: var(--shadow); }
+.page-photo img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
+.page-photo-call { position: absolute; z-index: 2; left: 50%; top: 50%; display: grid; min-width: min(82%, 330px); padding: 15px 26px 17px; color: #fff; text-align: center; line-height: 1.12; background: rgba(8,31,36,.86); border: 2px solid rgba(255,255,255,.88); border-radius: 18px; box-shadow: 0 14px 42px rgba(0,0,0,.32); transform: translate(-50%,-50%); backdrop-filter: blur(8px); }
+.page-photo-call:hover { color: #fff; background: rgba(11,118,111,.94); }
+.page-photo-call span { font-size: .85rem; font-weight: 800; }
+.page-photo-call strong { margin-top: 5px; font-size: clamp(1.45rem,3.4vw,2.25rem); letter-spacing: .025em; white-space: nowrap; }
 .image-split { display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: 64px; }
 .image-split img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 10px 34px 10px 34px; }
 .check-list { display: grid; gap: 14px; margin: 28px 0 0; padding: 0; list-style: none; }
@@ -144,6 +153,7 @@ tr:last-child td { border-bottom: 0; }
 .site-footer h2 { margin: 0 0 14px; color: #fff; font-size: .98rem; }
 .site-footer p { max-width: 440px; margin: 16px 0 0; color: #94acaa; font-size: .88rem; }
 .site-footer a { display: block; padding: 5px 0; color: #bfd1d0; font-size: .9rem; }
+.site-footer span { display: block; padding: 5px 0; color: #94acaa; font-size: .88rem; }
 .footer-bottom { margin-top: 44px; padding-top: 24px; border-top: 1px solid rgba(255,255,255,.1); color: #78918f; font-size: .8rem; }
 .call-float { position: fixed; z-index: 200; right: 24px; bottom: 24px; min-width: 310px; min-height: 78px; display: flex; align-items: center; gap: 14px; padding: 10px 24px 10px 12px; color: #fff; background: linear-gradient(135deg, #0b766f, #075d58); border: 2px solid rgba(255,255,255,.78); border-radius: 999px; box-shadow: 0 18px 50px rgba(7, 67, 63, .34); transition: transform .2s, box-shadow .2s; }
 .call-float:hover { color: #fff; transform: translateY(-4px); box-shadow: 0 24px 60px rgba(7, 67, 63, .42); }
@@ -188,6 +198,8 @@ tr:last-child td { border-bottom: 0; }
   .hero-copy { font-size: 1rem; }
   .hero-actions .button { width: 100%; }
   .hero-media img { aspect-ratio: 4 / 5; border-radius: 28px 8px 28px 8px; }
+  .page-photo-wrap { margin-top: 26px; }
+  .page-photo-call { min-width: min(88%, 310px); padding: 12px 18px 14px; }
   .hero-note { left: 14px; right: 14px; bottom: 14px; max-width: none; }
   .trust-grid, .card-grid, .district-grid, .district-cards, .related-grid, .footer-grid, .sidebar { grid-template-columns: 1fr; }
   .trust-item { border-right: 0; border-bottom: 1px solid var(--line); }

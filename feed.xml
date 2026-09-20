@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<channel>
+<title>온결 부산·경남 특수청소 안내</title>
+<link>https://ongyeol-busan-gyeongnam.pages.dev/</link>
+<description>온결의 고독사 청소, 유품정리, 악취 제거 및 현장 대응 안내</description>
+<language>ko-KR</language>
+<atom:link href="https://ongyeol-busan-gyeongnam.pages.dev/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>부산·경남 특수청소 업체 온결</title><link>https://ongyeol-busan-gyeongnam.pages.dev/</link><guid isPermaLink="true">https://ongyeol-busan-gyeongnam.pages.dev/</guid><description>부산 전 구·군과 경남권 고독사 현장 특수청소, 유품정리, 오염 제거와 탈취 안내</description></item>
+<item><title>부산 고독사 청소 출장 안내</title><link>https://ongyeol-busan-gyeongnam.pages.dev/regions/busan/</link><guid isPermaLink="true">https://ongyeol-busan-gyeongnam.pages.dev/regions/busan/</guid><description>부산 16개 구·군의 주거 형태와 진입 조건을 고려한 출장 안내</description></item>
+<item><title>고독사 현장 특수청소</title><link>https://ongyeol-busan-gyeongnam.pages.dev/services/unattended-death-cleaning/</link><guid isPermaLink="true">https://ongyeol-busan-gyeongnam.pages.dev/services/unattended-death-cleaning/</guid><description>오염 범위 확인부터 세척·소독, 탈취와 마감 확인까지의 서비스 안내</description></item>
+<item><title>고독사 청소 비용 결정 기준</title><link>https://ongyeol-busan-gyeongnam.pages.dev/guides/cost/</link><guid isPermaLink="true">https://ongyeol-busan-gyeongnam.pages.dev/guides/cost/</guid><description>오염 범위, 반출량, 자재 침투와 작업 동선에 따른 비용 기준</description></item>
+<item><title>고독사 청소 절차 6단계</title><link>https://ongyeol-busan-gyeongnam.pages.dev/guides/process/</link><guid isPermaLink="true">https://ongyeol-busan-gyeongnam.pages.dev/guides/process/</guid><description>초기 상담부터 현장 인계까지 실제 작업 절차 안내</description></item>
+<item><title>현장 발견 후 먼저 해야 할 일</title><link>https://ongyeol-busan-gyeongnam.pages.dev/guides/first-response/</link><guid isPermaLink="true">https://ongyeol-busan-gyeongnam.pages.dev/guides/first-response/</guid><description>관계 기관 확인과 출입 통제 등 현장 초기 대응 안내</description></item>
+<item><title>경남 고독사 청소 출장 안내</title><link>https://ongyeol-busan-gyeongnam.pages.dev/regions/gyeongnam/</link><guid isPermaLink="true">https://ongyeol-busan-gyeongnam.pages.dev/regions/gyeongnam/</guid><description>창원, 김해, 양산, 거제, 진주 등 경남권 출장 안내</description></item>
+</channel>
+</rss>
